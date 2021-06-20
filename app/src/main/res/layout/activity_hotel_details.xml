@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="@color/pink"
+                android:gravity="center"
+                android:id="@+id/name"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="@color/purple"
+                android:gravity="center"
+                android:id="@+id/phone"
+                android:layout_below="@+id/name"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="@color/pink"
+                android:gravity="center"
+                android:id="@+id/web"
+                android:layout_below="@+id/phone"
+                android:autoLink="web"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/pink"
+                android:gravity="center"
+                android:id="@+id/casui"
+                android:layout_below="@+id/web"
+                android:textSize="30sp"
+                android:text="CUISINES"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="@color/purple2"
+                android:gravity="center"
+                android:id="@+id/causine"
+                android:layout_below="@+id/casui"
+                android:textSize="30sp"
+                />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
